@@ -1,0 +1,16 @@
+#chat_pan {
+	overflow: scroll;
+
+	height: 80%;
+	width: 90%;
+
+	border: 2px black solid;
+}
+#message {
+	width: 70%;
+	height: 10%;
+}
+#button {
+	width:10%;
+	height: 10%;
+}

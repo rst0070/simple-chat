@@ -1,0 +1,26 @@
+<!DOCTYPE html/>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="css/main.css"/>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script>
+			const USER_NAME = "<%= name %>";
+		</script>
+
+	</head>
+	<body>
+		<div class="main">
+			<ul id="chat_pan">
+			</ul>
+			<div class="input_pan">
+				<input id="message" type="text"/>
+				<Button id="button">전송</Button>
+			</div>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
+
+
